@@ -47,8 +47,8 @@ public class SortAlgo {
     }
 
     public static void selectionSort(int[] arr) {
-        int temp = 0;
-        int minIndex = -1;
+        int temp;
+        int minIndex;
 
         for (int i = 0; i < arr.length - 1; i++) {
             minIndex = i;
