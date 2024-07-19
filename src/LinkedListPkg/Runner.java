@@ -1,8 +1,8 @@
-package LinkedList;
+package LinkedListPkg;
 
 public class Runner {
     public static void main(String[] args) {
-        Linkedlist linkedlist = new Linkedlist();
+        LinkedList linkedlist = new LinkedList();
         linkedlist.insert(5);
         linkedlist.insert(10);
         linkedlist.insertAtHead(3);

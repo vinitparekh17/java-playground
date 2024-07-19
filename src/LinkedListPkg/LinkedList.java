@@ -1,9 +1,9 @@
-package LinkedList;
+package LinkedListPkg;
 
-public class Linkedlist {
+public class LinkedList {
     private Node head;
 
-    public Linkedlist() {}
+    public LinkedList() {}
 
     public void insert(int data) {
         Node newNode = new Node();
